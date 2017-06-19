@@ -1,8 +1,16 @@
-# WKWebViewController
-简易且清理的WKWebView扩展，带进度条。push多级页面带返回和关闭Nav。
-you can see the detail information while you download the WKWebViewController
+# __WKWebViewController__ &copy;*GREENBANYAN*
 
+>  简易且轻量的WKWebViewController，对WKWebView的封装。
+>  带载入进度条;
+>  push多级页面时带返回和关闭按钮，当然这依赖与你设定的navigationBar，但是你也可以用我自己的navigationBar。
 
-使用方式:
-WKWebViewController * webVC = [[WKWebViewController alloc]initWithUrl:[NSURL URLWithString:@"http://www.baidu.com"]];
-[self.navigationController pushViewController:webVC animated:YES];
+____
+*__Example__*
+```
+WKWebViewController * vc = [[WKWebViewController alloc]initWithUrl:[NSURL URLWithString:@"http://www.baidu.com"]];
+[self.navigationController pushViewController:vc animated:YES];
+```
+____
+RxWebViewController
+ 
+[*__简书__*](http://www.jianshu.com/p/8b41e1c9c048)
