@@ -11,8 +11,8 @@
 
 @implementation UIBarButtonItem (Extension)
 
-+ (UIBarButtonItem *)itemWithTarget:(id)target action:(SEL)action image:(NSString *)image highlightImage:(NSString *)highlightImage{
-    
++ (UIBarButtonItem *)itemWithTarget:(id)target action:(SEL)action image:(NSString *)image highlightImage:(NSString *)highlightImage
+{    
     UIButton * button = [UIButton buttonWithType:UIButtonTypeCustom];
     [button addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
     [button setBackgroundImage:[UIImage imageNamed:image] forState:UIControlStateNormal];
@@ -21,8 +21,8 @@
     return [[UIBarButtonItem alloc] initWithCustomView:button];
 }
 
-+(UIBarButtonItem *)itemWithTarget:(id)target action:(SEL)action title:(NSString *)title titleColor:(UIColor *)titleColor{
-    
++(UIBarButtonItem *)itemWithTarget:(id)target action:(SEL)action title:(NSString *)title titleColor:(UIColor *)titleColor
+{    
     UIButton * button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.frame = CGRectMake(0, 0, 40, 40);
     [button setTitle:title forState:UIControlStateNormal];
