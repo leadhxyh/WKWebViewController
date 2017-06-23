@@ -6,6 +6,7 @@
 >  你可以对比下[*__RxWebViewController__*](https://github.com/Roxasora/RxWebViewController) 
 
 *__预览__* 
+
 ![预览Gif](https://github.com/GREENBANYAN/WKWebViewController/blob/master/2017-03-16%2010_01_13.gif )
 
 *__Example__*
